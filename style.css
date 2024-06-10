@@ -89,9 +89,25 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    justify-content: center;
     align-items: center;
     position: fixed;
     inset: 0px;
     margin: auto;
+    overflow: hidden;
+    height: min-content;
+    border-radius: 1rem;
+    justify-content: space-between;
+}
+
+.addToCart {
+    padding: 1rem;
+    font-family: Montserrat;
+    border-radius: 1rem;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+
+.photoCard {
+    flex: 1;
 }
