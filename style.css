@@ -1,4 +1,17 @@
-.attribution { font-size: 11px; text-align: center; }
+.attribution { 
+    font-family: Montserrat;
+    font-size: 11px; text-align: center;
+    bottom: 0;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 8px;
+    width: 12rem;
+    max-width: calc(
+      100vw - 8px * 2
+    );
+    margin-inline: auto;
+}
 
 .attribution a { color: hsl(228, 45%, 44%); }
 
@@ -7,7 +20,7 @@
     font-style: normal;
     font-weight: 500;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aXx-p7K4KLg.woff) format('woff');
-    }
+}
 
 @font-face {
     font-family: 'Fraunces';
@@ -16,10 +29,65 @@
     src: url(https://fonts.gstatic.com/s/fraunces/v31/6NUh8FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0K7iN7hzFUPJH58nib1603gg7S2nfgRYIctxuTCf7Vp05GNyXk.woff) format('woff');
 }
 
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
 .mainCardTitle {
     font-family: Montserrat;
 }
 
 .productTitle {
     font-family: Fraunces;
+}
+
+.productBody {
+    font-family: Montserrat;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricingParent {
+    font-family: Fraunces;
+    text-align: center;
+}
+
+.pricingChild1 {
+    color: hsl(158, 36%, 37%);
+    position: relative;
+    color: (158, 36%, 37%);
+    display: inline-block;
+    align-items: center;
+    vertical-align: middle;
+    margin: auto;
+}
+
+.pricingChild2 {
+    position: relative;
+    color: (158, 36%, 37%);
+    display: inline-block;
+    align-items: center;
+    vertical-align: middle;
+    margin: auto;
+}
+
+.mainCard {
+    background-color: hsl(0, 0%, 100%);
+    padding: 2rem;
+}
+
+.fullCard {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    inset: 0px;
+    margin: auto;
 }
